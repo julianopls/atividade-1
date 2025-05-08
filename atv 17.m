@@ -9,13 +9,13 @@ int main() {
     
     //os dados da primeira pessoa
     printf("Digite o nome da primeira pessoa:\n");
-    scanf("%49s", pessoa1.nome); //esse 49s e para ler até 49 letras
+    scanf("%c", pessoa1.nome);
     printf("Digite a idade da primeira pessoa:\n");
     scanf("%d", &pessoa1.idade);
     
     //dados da segunda pessoa
     printf("Digite o nome da segunda pessoa:\n");
-    scanf("%49s", pessoa2.nome); //esse 49s e para ler até 49 letras
+    scanf("%c", pessoa2.nome);
     printf("Digite a idade da segunda pessoa:\n");
     scanf("%d", &pessoa2.idade);
     
