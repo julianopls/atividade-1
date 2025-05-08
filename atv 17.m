@@ -21,14 +21,14 @@ int main() {
     
     //aqui compara as idades e informa quem e mais velho
     if (pessoa1.idade > pessoa2.idade) 
-	{
+    {
     printf("%s é mais velho que %s.\n", pessoa1.nome, pessoa2.nome);
     } 
-	else if (pessoa1.idade < pessoa2.idade) {
+    else if (pessoa1.idade < pessoa2.idade) {
     printf("%s e mais velho que %s.\n", pessoa2.nome, pessoa1.nome);
     } 
-	else
-	{
+    else
+    {
     printf("%s e %s tem a mesma idade.\n", pessoa1.nome, pessoa2.nome);
     }
     return 0;
